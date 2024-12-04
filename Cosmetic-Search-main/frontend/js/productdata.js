@@ -210,5 +210,29 @@ const mockProductData = [
                 reviewText: "It works okay, but it doesn’t keep my face matte for long."
             }
         ]
+    }, {
+        id: 11,
+        name: "Hydrating Face Cream",
+        brand: "Brand A",
+        price: 25.99,
+        rating: 4,
+        category: "skincare",
+        description: "A nourishing face cream that provides hydration.",
+        image:'',
+       // image: "https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=612x612&w=0&k=20&c=N-pGA8OClRVDzRfj_9AqANnOaDS3devZWwrQNwZuDSk=",
+        ingredients: "Aloe Vera, Vitamin E, Shea Butter",
+        shades: null,
+        reviews: [
+            {
+                reviewer: "Alice",
+                rating: 5,
+                reviewText: "This cream is amazing! My skin feels so hydrated and smooth."
+            },
+            {
+                reviewer: "Bob",
+                rating: 4,
+                reviewText: "Good product, but I expected more hydration."
+            }
+        ]
     }
 ];
